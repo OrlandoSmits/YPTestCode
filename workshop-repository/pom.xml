@@ -1,0 +1,12 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>nl.ordina</groupId>
+    <artifactId>workshop-repository</artifactId>
+    <version>NEXT-SNAPSHOT</version>
+
+    <parent>
+        <groupId>nl.ordina</groupId>
+        <artifactId>Workshop</artifactId>
+        <version>NEXT-SNAPSHOT</version>
+    </parent>
+</project>

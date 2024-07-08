@@ -1,0 +1,31 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    
+    <artifactId>Workshop</artifactId>
+    <groupId>nl.ordina</groupId>
+    <version>NEXT-SNAPSHOT</version>
+    
+    <packaging>pom</packaging>
+    
+    <properties>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.targert>17</maven.compiler.targert>
+    </properties>
+    
+    <modules>
+        <module>workshop-api</module>
+        <module>workshop-app</module>
+        <module>workshop-domain</module>
+        <module>workshop-repository</module>
+    </modules>
+    
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.34</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>
