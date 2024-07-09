@@ -3,14 +3,13 @@
     <groupId>nl.ordina</groupId>
     <artifactId>workshop-app</artifactId>
     <version>NEXT-SNAPSHOT</version>
-    
+
     <parent>
         <groupId>nl.ordina</groupId>
         <artifactId>Workshop</artifactId>
         <version>NEXT-SNAPSHOT</version>
     </parent>
-    
-    
+
     <dependencies>
         <dependency>
             <groupId>org.projectlombok</groupId>

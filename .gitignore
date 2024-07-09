@@ -6,3 +6,12 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+.idea
+./workshop-api/target
+./workshop-app/target
+./workshop-domain/target
+./workshop-repository/target
+./*/target
+./target
+
+

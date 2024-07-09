@@ -1,12 +1,1 @@
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.Setter;
-
-@Getter
-@Setter
-@AllArgsConstructor
-public class Book {
-    
-    private Long id;
-    private String title;
-}
+public record Book(Long id, String name) { }
