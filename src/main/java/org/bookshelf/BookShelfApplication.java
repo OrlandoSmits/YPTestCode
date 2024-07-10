@@ -1,11 +1,11 @@
-package org.example;
+package org.bookshelf;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ApiApplication {
+public class BookShelfApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ApiApplication.class);
+        SpringApplication.run(BookShelfApplication.class);
     }
 }
