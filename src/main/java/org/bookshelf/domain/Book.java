@@ -5,10 +5,12 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 import lombok.Setter;
+import lombok.ToString;
 
 @Table(name = "BoekenKast")
 @Entity
 @Setter
+@ToString
 public class Book {
 
     @Id
@@ -16,4 +18,6 @@ public class Book {
     private Long Id;
 
     private String name;
+    
+    
 }

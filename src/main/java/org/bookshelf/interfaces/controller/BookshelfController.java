@@ -30,7 +30,7 @@ public class BookshelfController {
 //    }
 
     @PostMapping("/book")
-    public void saveBook(@RequestBody String name) throws InterruptedException {
+    public void saveBook(@RequestBody String name) {
         Book book = new Book();
         book.setName(name);
         bookShelfService.saveBook(book);

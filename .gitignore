@@ -13,5 +13,7 @@
 ./workshop-repository/target
 ./*/target
 ./target
+/target
+/.idea
 
 

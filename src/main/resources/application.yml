@@ -1,4 +1,6 @@
+
 spring:
+
   datasource:
     url: jdbc:postgresql://localhost:5432/boeken_kast
     username: postgres
@@ -10,3 +12,5 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
+server:
+  port: 8082
